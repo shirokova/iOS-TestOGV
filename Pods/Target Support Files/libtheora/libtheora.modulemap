@@ -1,0 +1,6 @@
+framework module theora {
+  umbrella header "libtheora-umbrella.h"
+
+  export *
+  module * { export * }
+}

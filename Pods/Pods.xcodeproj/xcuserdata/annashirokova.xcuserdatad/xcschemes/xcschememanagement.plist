@@ -9,7 +9,42 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>OGVKit-OGVKitResources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>OGVKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>libnestegg.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>libogg.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>liboggz.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>libtheora.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>libvorbis.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>131C25887AB306A37D74567D77472DE1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34F48BE51211885C6AA91A4A796BFC63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>432ECC54282C84882B482CCB4CF227FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>57CFC4DF5A94826729A3A532FC59EE52</key>
+		<key>4AB6A579D486821343A6C14BDCA5ADC2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8261CF9FD4B58C3F6278AD76A3B1BF6E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2233EB0E92010C86CD8D7096441A5ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8A35F73B473BE20A5325978FF1ACDB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E95ED23DD7CFF14D9646648899D7529A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F27F7DEE31639AE5C534EC864EB38324</key>
 		<dict>
 			<key>primary</key>
 			<true/>

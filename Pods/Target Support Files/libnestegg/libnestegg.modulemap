@@ -1,0 +1,6 @@
+framework module nestegg {
+  umbrella header "libnestegg-umbrella.h"
+
+  export *
+  module * { export * }
+}

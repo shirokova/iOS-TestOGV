@@ -1,0 +1,10 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/libvpx"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/libvpx"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = -DOGVKIT_HAVE_OGG_DEMUXER -DOGVKIT_HAVE_THEORA_DECODER -DOGVKIT_HAVE_VP8_DECODER -DOGVKIT_HAVE_VORBIS_DECODER -DOGVKIT_HAVE_WEBM_DEMUXER $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Alamofire.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/OGVKit.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/nestegg.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ogg.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/oggz.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/theora.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/vorbis.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/libvpx"
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "OGVKit" -framework "VPX" -framework "nestegg" -framework "ogg" -framework "oggz" -framework "theora" -framework "vorbis"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods
+PODS_ROOT = ${SRCROOT}/Pods
