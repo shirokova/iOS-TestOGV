@@ -1,6 +1,7 @@
 framework module oggz {
-  umbrella header "liboggz-umbrella.h"
-
-  export *
-  module * { export * }
+  umbrella header "oggz.h"
+  module oggz {
+    header "oggz.h"
+    export *
+  }
 }

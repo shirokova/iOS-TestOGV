@@ -73,7 +73,7 @@ Now open OGVKit.xcworkspace -- the workspace NOT the project! And build.
 
 ## Adding to your project
 
-To use the current release (once released!) in your project, set up some stuff in your Podfile like so:
+To use the current release in your project, set up some stuff in your Podfile like so:
 
 ```
 source 'https://github.com/CocoaPods/Specs.git'
@@ -90,7 +90,12 @@ end
 # https://github.com/CocoaPods/CocoaPods/issues/2292
 # Remove once bug fixed is better:
 post_install do |installer|
-  installer.project.targets.each do |target|
+  if installer.respond_to?(:project)
+    project = installer.project
+  else
+    project = installer.pods_project
+  end
+  project.targets.each do |target|
     if target.product_reference.name == 'OGVKitResources.bundle' then
       target.build_configurations.each do |config|
         config.build_settings['TARGETED_DEVICE_FAMILY'] = '1,2' # iPhone, iPad

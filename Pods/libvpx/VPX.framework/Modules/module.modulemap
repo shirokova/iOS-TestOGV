@@ -1,0 +1,26 @@
+framework module VPX {
+  module vpx_decoder {
+    header "vpx_decoder.h"
+    header "vpx_codec.h"
+    header "vpx_integer.h"
+    header "vpx_image.h"
+    header "vpx_frame_buffer.h"
+    export *
+  }
+  module vp8dx {
+    header "vp8dx.h"
+    header "vp8.h"
+    header "vpx_codec.h"
+    header "vpx_integer.h"
+    header "vpx_image.h"
+    export *
+  }
+  module vp8cx {
+    header "vp8cx.h"
+    header "vp8.h"
+    header "vpx_codec.h"
+    header "vpx_integer.h"
+    header "vpx_image.h"
+    export *
+  }
+}

@@ -1,6 +1,3 @@
 framework module OGVKit {
-  umbrella header "OGVKit-umbrella.h"
-
-  export *
-  module * { export * }
+  umbrella header "OGVKit.h"
 }

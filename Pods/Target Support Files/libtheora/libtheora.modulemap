@@ -1,6 +1,11 @@
 framework module theora {
-  umbrella header "libtheora-umbrella.h"
-
-  export *
-  module * { export * }
+  umbrella header "theora.h"
+  module theoradec {
+    header "theoradec.h"
+    export *
+  }
+  module theoraenc {
+    header "theoraenc.h"
+    export *
+  }
 }

@@ -1,6 +1,11 @@
 framework module vorbis {
-  umbrella header "libvorbis-umbrella.h"
-
-  export *
-  module * { export * }
+  umbrella header "vorbis.h"
+  module vorbisfile {
+    header "vorbisfile.h"
+    export *
+  }
+  module vorbisenc {
+    header "vorbisenc.h"
+    export *
+  }
 }

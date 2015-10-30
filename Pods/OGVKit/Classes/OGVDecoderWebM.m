@@ -463,6 +463,15 @@ enum AppState {
         vorbis_comment_clear(&vorbisComment);
     }
 #endif
+#ifdef OGVKIT_HAVE_VP8_DECODER
+    if (vpxDecoder) {
+        vpx_codec_destroy(&vpxContext);
+        vpxDecoder = NULL;
+    }
+#endif
+    if (demuxContext) {
+        nestegg_destroy(demuxContext);
+    }
 }
 
 

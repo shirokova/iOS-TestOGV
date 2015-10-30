@@ -1,6 +1,7 @@
 framework module ogg {
-  umbrella header "libogg-umbrella.h"
-
-  export *
-  module * { export * }
+  umbrella header "ogg.h"
+  module ogg {
+    header "ogg.h"
+    export *
+  }
 }

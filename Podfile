@@ -21,14 +21,12 @@ pod 'Alamofire'
 
 # -------- OGVKit
 
-source 'https://github.com/CocoaPods/Specs.git'
-
 # This line is needed until OGVKit is fully published to CocoaPods
 # Remove once packages published:
 source 'https://github.com/brion/OGVKit-Specs.git'
 
 #target 'testOGV' do
-    pod "OGVKit"
+pod "OGVKit", '~> 0.5pre'
 #end
 
 # hack for missing resource bundle on iPad builds
